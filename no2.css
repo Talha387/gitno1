@@ -1,0 +1,134 @@
+body{margin: 0;padding: 0;}
+
+
+/* Bubble animation design start from here */
+.header{background: url(../Practise/images/img3.jpg) no-repeat center;
+background-size: cover;}
+h1{ margin: 0;color: red;}
+.wrapper{margin-bottom: 200px;}
+.myFirstD{ position: absolute; right: 0;left: 0;top: 0;bottom: 0;margin: auto;display: block;text-align: center;width: 280px; height: 50px;}
+.myFirstD h1{color: red;font-weight: bold;}
+/* Bubble animation design End here */
+
+
+/* about part design  start from here  */
+.about-desc p { font-size: 17px;font-family: arial;}
+.about_section{height: 1000px;margin-bottom: 100px;}
+.about-bg-diagonal{width: 60%;height: 600px;float: right;background-image: url(../Practise/images/img3.jpg);
+border-left: 200px solid white;border-top: 700px solid transparent;background-position: fixed; background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
+.about-content-box{float: left;height: 700px;}
+.about-content-box-outer{width: 100%;height: 100%;display: table;}
+.about-content-box-inner{display: table-cell;vertical-align: middle;}
+.content-title h3{text-align: left;font-weight: bold;}
+.textDc{margin-top: 35px;}
+
+
+@media all and (max-width:768px){
+    .about-bg-diagonal {width: 100%;height: 600px;background-image: url(../Practise/images/img3.jpg);background-position: fixed;background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment: fixed;float: none;border-left: 0px;}
+    .content-title {margin-top: -343px;}}
+@media all and (max-width:368px){
+    .about-btn {text-align: center;}
+   
+    .services_Part {
+    background-color: #3e3f41;
+    height: 600px;
+    margin-top: 200px;}
+}  
+
+.btn-primary{padding: 5px 25px;}
+.about-btn a{font-size: 20px;font-family: tahoma;}
+/* about part design End Here  */  
+
+
+/* services part design start from here */
+.services_Part{background-color:#3e3f41;height: 550px;margin-bottom: 100px;}
+.serviceBox{padding: 130px 20px 10px;background: white;text-align: center;border-radius: 25px;overflow: hidden;position: relative;}
+.serviceBox .service_icon{display: inline-block;width: 200px;height: 200px;line-height: 300px;border-radius: 50%;box-shadow: 0 0 5px #000 inset;background: linear-gradient(to top,#8633cb,#884fb7 50%,#6d6e72 50%);font-size: 50px;color: white;position: absolute;top: -90px;left: 50%;transform: scale(1)translateX(-50%);transition: all 0.4s ease 0s;}
+.serviceBox:hover .service_icon{font-size: 65px;}
+.serviceBox .title{font-size: 18px;font-weight: 700px;color: #333;letter-spacing: 1px;text-transform: uppercase;margin:  0 0 10px 0;}
+.serviceBox .title{font-size: 18px;font-weight: 700px;color: #333;letter-spacing: 1px;text-transform: uppercase;margin:  0 0 10px 0;font-family: arial;}
+.serviceBox:hover .title{color: #8939cb;}
+.serviceBox .description{font-size: 15px;color: #808080;line-height: 27px;letter-spacing: 1px;margin-bottom: 10px;}
+.container{margin-top: 50px;}
+.serviceBox .read-more{display: inline-block;padding: 5px 15px;font-size: 14px;color: white;background: linear-gradient(to top,#8633cb,#884fb7);border-radius: 10px 10px 0 0;transform: translateY(50px);transition: all 0.3s ease 0s;font-size: italic;}
+.serviceBox .read-more:hover{color: white;box-shadow: 0 0 5px #000;}
+.serviceBox:hover .read-more{ transform: translateY(0);}
+.serviceBox.yellow .service_icon{background: linear-gradient(to top,#f1b02b,#fddb18 50%,#6d6e72 50%);}
+.serviceBox.yellow:hover .title{color: #f1b02b;}
+.serviceBox.yellow .read-more{background: linear-gradient(to top,#f1b02b,#fddb18);}
+.serviceBox.green .service_icon{background: linear-gradient(to top,#50c338,#9dea28 50%,#6d6e72 50%);}
+.serviceBox.green:hover .title{color: #50c338;}
+.serviceBox.green .read-more{background: linear-gradient(to top,#50c338,#9dea28);}
+.col-md-3 {margin-top: 100px;}
+
+.serviceBox.demoCo .service_icon{background: linear-gradient(to top,#00a6cf,#3ad8ff 50%,#6d6e72 50%);}
+.serviceBox.demoCo:hover .title{color: #00a6cf;}
+.serviceBox.demoCo .read-more{background: linear-gradient(to top,#00a6cf,#3ad8ff);}
+.col-md-3 {margin-top: 100px;}
+.col-md-6 {padding: 0px 12px;}
+.demo{background-size: cover;}
+@media all and (max-width:991px){
+    .col-md-6 {padding:0px 12px;}
+    .demo {background-color: #3e3f41; height: 800px;}
+    .services_Part { background-color: #3e3f41; height: 550px; margin-bottom: 350px;}
+}  
+@media all and (max-width:767px){
+    .demo {background-color: #3e3f41; height: 1350px;}
+    .services_Part { background-color: #3e3f41; height: 550px; margin-bottom: 910px;}
+}  
+@media all and (max-width:520px){
+    .demo {background-color: #3e3f41; height: 1450px;}
+    .services_Part {background-color: #3e3f41;height: 550px;margin-bottom: 1000px;}
+}  
+@media all and (max-width:401px){
+    .demo {background-color: #3e3f41; height: 1550px;}
+    .services_Part {background-color: #3e3f41;height: 550px;margin-bottom: 1100px;}
+}  
+@media all and (max-width:341px){
+    .demo {background-color: #3e3f41; height: 1660px;}
+    .services_Part {background-color: #3e3f41;height: 550px;margin-bottom: 1220px;}
+}  
+@media all and (max-width:302px){
+    .demo {background-color: #3e3f41; height: 1760px;}
+    .services_Part {background-color: #3e3f41;height: 550px;margin-bottom: 1320px;}
+}  
+@media all and (max-width:272px){
+    .demo {background-color: #3e3f41; height: 1900px;}
+    .services_Part { background-color: #3e3f41;height: 550px;margin-bottom: 1470px;}
+}  
+@media all and (max-width:250px){
+    .demo {background-color: #3e3f41; height: 2050px;}
+    .services_Part { background-color: #3e3f41; height: 550px; margin-bottom: 1600px;}
+}  
+/* services part End Here*/
+
+
+
+/* creative background design start from here */
+.a{background-color: #0e5ef7;height: 200px;transform: skew(0deg,13deg);width: 30%;float: left;border-right: 1px solid #0e5ef7;}
+.b{background-color: #0e5ef7;height: 200px;float: right;width: 70%;transform: skew(0deg, -5.7deg);}
+.c{background-color: #0e5ef7;height: 200px;margin-top: -55px;}
+.d{background-color: yellowgreen;height: 600px;}
+.e{position: relative;top: -90px;background-color: #0e5ef7;height: 200px;transform: skew(0deg,-5.7deg);width: 70%;float: left;border-right: 1px solid #0e5ef7;}
+.f{position: relative;top: -90px;background-color: #0e5ef7;height: 200px;float: right;width: 30%;transform: skew(0deg,13deg);}
+.red{background-color: #0e5ef7;height: 200px;}
+.h1-wannabe{padding-top: 32vh;font-family: tahoma;font-size: 10vh;font-weight: bold;}
+.d:nth-child(1){font-family: tahoma;font-size: 4vh;text-transform: uppercase;}
+.effect{transform: skew(-25deg);transform: skew(-6deg);text-align: center;margin: 0;}
+/* creative background design End Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
