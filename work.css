@@ -1,0 +1,54 @@
+body{margin: 0;padding: 0;}
+
+/* navar and logo dsign start from here */
+.first_part {height: 100px;background: #fff;padding: 34px}
+.logo_area {float: left;}
+.first_nav {float: right;padding: 0;margin: 0;}
+nav ul{list-style: none;}
+nav ul li {float: left;padding: 0px 10px}
+nav ul li a {font-weight: bold;font-size: 15px;color: #191919 !important;text-decoration: none;font-family: 'Montserrat', sans-serif;}
+nav ul li a:hover{color: #1ecbc6 !important;text-decoration: underline !important;}
+/* navar and logo END here  */
+
+/* ul/ux dsign start from here */
+.second_part{height: 300px;background: #ebebeb;position: relative;}
+.second_title h2 {font-size: 28pt;font-family: 'Montserrat', sans-serif;font-weight: bold;text-align: center;color: #191919}
+.second_content {width: 615px;margin: auto;text-align: center;color: #878787;font-family: 'Nunito Sans', sans-serif;font-size: 13pt;padding: 20px 0px}
+.second_part_bind {height: 122px;width: 600px;position: absolute;top: 50%;left: 50%;margin: -61px 0 0 -300px}
+/* ul/ux dsign END here */
+
+/* photos part design start from here */
+.photos_part_photo {width: 25%;height: 316px;overflow: hidden;padding-right: 0px;padding-left: 0px}
+.photos_part_photo img{width: 100%;}
+.photos_part {overflow: hidden}
+.photos_part_photo{position: relative;}
+.overlay_icon {position: absolute;width: 100%;top: 0px;display: block;height: 316px;opacity: 0;transition: ease 1s;font-size: 55px;background: #21bfba98;color: white;}
+.far.fa-eye {position: absolute;margin: 39% 41%}
+.overlay_icon:hover{opacity:1;cursor: pointer;}
+/* photos part design END here */
+
+
+
+
+
+
+
+/* .footer are design start from here */
+.footer_contact{background: #141414;height: 250px;color: #ffffff;}
+.footer_content_all_div {height: 100px;width: 84%;position: absolute;margin: auto;top: 50%;left: 50%;margin: -50px 0 0 -42%}
+.footer_part{display: inline-block;position: relative;}
+.footer_content_title h5 {font-weight: bold;font-family: 'Montserrat', sans-serif;font-size: 19px;color: #fff}
+.footer_part p {font-size: 15px;font-family: 'Nunito Sans', sans-serif;padding: 18px 0px}
+.footer_part ul{list-style: none;}
+.footer_part ul a {color: #fff;;font-size: 16px;font-family: 'Nunito Sans', sans-serif}
+.footer_part:nth-child(2) p {margin-left: 50px;position: absolute;bottom: 0px}
+.footer_part:nth-child(4) {padding: 0px 0px;margin-left: 30px}
+.footer_part:nth-child(5) {padding: 0px 0px;margin-left: 35px;}
+.footer_part:nth-child(5) ul {margin-left: 55px}
+.footer_contact {position: relative}
+/* footer area END here */
+
+
+
+
+

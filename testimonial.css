@@ -1,0 +1,54 @@
+body{margin: 0;padding: 0;}
+
+/* navar and logo dsign start from here */
+.first_part {height: 100px;background: #fff;padding: 34px}
+.logo_area {float: left;}
+.first_nav {float: right;padding: 0;margin: 0;}
+nav ul{list-style: none;}
+nav ul li {float: left;padding: 0px 10px}
+nav ul li a {font-weight: bold;font-size: 15px;color: #191919 !important;text-decoration: none;font-family: 'Montserrat', sans-serif;}
+nav ul li a:hover{color: #1ecbc6 !important;text-decoration: underline !important;}
+/* navar and logo END here  */
+
+/* about me part start from here */
+.left_site{height: 550px;background: #faf9f9;}
+.about_me_part {padding: 91px 70px;}
+.about_title {color: #171717;font-family: 'Montserrat', sans-serif;font-size: 27pt;font-weight: bold}
+.about_content {list-style: none;padding: 0;width: 500px;margin-top: 25px}
+.about_content p {font-family: 'Montserrat', sans-serif;font-size: 16px;color: #838383}
+.about_content p:nth-child(1) {margin-bottom: 20px}
+.about_content p:nth-child(2) {margin-bottom: 50px}
+.third_row{margin-right: 0px;margin-left: 0px;}
+.third_img {overflow: hidden}
+.third_img img {height: 550px}
+.right_sight{padding-right: 0 !important;padding-left: 0 !important;}
+/* about me part END here */
+
+/* pagination start from here */
+.sign span{font-family: 'Montserrat', sans-serif;font-size: 16px;color: #838383}
+.fas.fa-th-large {font-size: 24px;margin: 5px auto;width: 5%;height: 24px;top: 50%;left: 50%}
+.container {max-width: 1235px}
+.my_pagination{height: 100px;background: #fff;padding: 34px;position: relative;}
+.page-link {border: none}
+.my_pagination_nav ul li a {font-weight: bold;font-size:15px !important;color: #444444 !important;text-decoration: none;font-family: 'Montserrat', sans-serif;}
+/* pagination start END here */
+
+/* .footer are design start from here */
+.footer_contact{background: #141414;height: 250px;color: #ffffff;}
+.footer_content_all_div {height: 100px;width: 84%;position: absolute;margin: auto;top: 50%;left: 50%;margin: -50px 0 0 -42%}
+.footer_part{display: inline-block;position: relative;}
+.footer_content_title h5 {font-weight: bold;font-family: 'Montserrat', sans-serif;font-size: 19px;color: #fff}
+.footer_part p {font-size: 15px;font-family: 'Nunito Sans', sans-serif;padding: 18px 0px}
+.footer_part ul{list-style: none;}
+.footer_part ul a {color: #fff;;font-size: 16px;font-family: 'Nunito Sans', sans-serif}
+.footer_part:nth-child(2) p {margin-left: 50px;position: absolute;bottom: 0px}
+.footer_part:nth-child(4) {padding: 0px 0px;margin-left: 30px}
+.footer_part:nth-child(5) {padding: 0px 0px;margin-left: 35px;}
+.footer_part:nth-child(5) ul {margin-left: 55px}
+.footer_contact {position: relative}
+/* footer area END here */
+
+
+
+
+

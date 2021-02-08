@@ -1,0 +1,66 @@
+body{margin: 0;padding: 0;}
+
+/* curvey background design start from here */
+.main_Div{height: 900px;}
+.header_div{background: url(./images/no2.jpg);text-align: center;width: 100%;height: auto;background-size: cover;background-attachment: fixed;position: relative;overflow: hidden;border-radius: 0 0 85% 85% / 30%;}
+.header_div .overlay{width: 100%;height: 100%;padding: 190px;color: white;text-shadow: 1px 1px 1px #333;background-image: linear-gradient(135deg,#9f05ff69 10%, #fd5e086b 100%);}
+.overlay h1{font-family: arial;font-size: 45px;margin-bottom: 30px;}
+.overlay h4,p{font-family: 'open sans', sans-serif;margin-bottom: 30px;}
+.btn_design{border: none;outline: 0 !important;padding: 20px 30px;border-radius: 50px;color: #333;font-weight: bold;background: white;margin-bottom: 50px;box-shadow: 0 3px 30px 0 #0000003b;}
+.btn_design:hover{cursor: pointer;background: rgb(0, 255, 213);}
+.newOne{vertical-align: center;text-align: center;}
+.newOne .row{margin: 0 auto;max-width: 840px;font-family: arial;}
+
+@media all and (max-width:827px){
+    .header_div .overlay {width: 100%;height: 100%;padding: 90px 25px;color: white;text-shadow: 1px 1px 1px #333; background-image: linear-gradient(135deg,#9f05ff69 10%, #fd5e086b 100%); }
+}
+@media all and (max-width:600px){
+    .overlay h1 { font-family: arial; font-size: 40px; margin-bottom: 15px;}
+    .btn_design {padding: 10px 24px;border-radius: 30px;}
+    .header_div {border-radius: 0 0 90% 90% / 28%;}
+}
+@media all and (max-width:400px){
+    .overlay h1 {font-size: 30px;margin-bottom: 10px;}
+    .overlay h4 {font-size: 18px;}
+    .overlay p {margin-bottom: 20px;font-size: 14px;}
+    .btn_design { padding: 6px 18px; border-radius: 20px;}
+    .header_div .overlay { padding: 90px 12px;}
+}
+@media all and (max-width:290px){
+    .header_div .overlay { padding: 90px 5px;}
+    .overlay h1 {font-size: 22px;margin-bottom: 10px;font-weight: bold;}
+    .overlay h4 {font-size: 15px;font-weight: bold;}
+    .overlay p { margin-bottom: 20px; font-size: 13px; font-family: tahoma;}
+    .btn_design { padding: 4px 15px; border-radius: 15px; font-size: 14px;}
+    .header_div {border-radius: 0 0 100% 100% / 25%; }
+}
+/* curvey background design End */
+
+
+/* water wave Background Animation Effects Start Here */
+.water_wave{position: relative;width: 100%;height: 100vh;overflow: hidden;background: #3586ff;margin-top: 300px;}
+.water_wave .wave{position: absolute;bottom: 0;left: 0;width: 100%;height: 100px;background: url(./images/wave1.png);background-size: 1000px 100px;}
+.water_wave .wave1{animation: myanimat 16s linear infinite;z-index: 1000;opacity:1;animation-delay: 0s;bottom: 0;} 
+.water_wave .wave2{animation: myanimat2 14s linear infinite;z-index: 999;opacity:0.5;animation-delay: -5s;bottom: 10px;} 
+.water_wave .wave3{animation: myanimat2 14s linear infinite;z-index: 998;opacity:0.2;animation-delay: -2s;bottom: 15px;} 
+.water_wave .wave4{animation: myanimat2 7s linear infinite;z-index: 997;opacity:0.7;animation-delay: -5s;bottom: 20px;} 
+@keyframes myanimat {
+    0%{background-position-x: 0;}
+    100%{background-position-x: 1000px;}
+}
+@keyframes myanimat2 {
+    0%{background-position-x: 0;}
+    100%{background-position-x: -1000px;}
+}
+@media all and (max-width:767px){
+    .water_wave {
+        height: 75vh;
+
+    }
+}
+/* water wave Background Animation End Here */
+
+
+
+
+

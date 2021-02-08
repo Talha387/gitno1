@@ -1,0 +1,19 @@
+body{margin: 0;padding: 0;}
+.header{height: 380px;background: #333;position: relative;overflow: hidden;}
+.main_div{right: 0;overflow: hidden;}
+.mini_div img{transform: rotate(303deg);width: 600px;position: absolute;top: 180px;right: -170px;}
+.box{width: 600px;transform: rotate(57deg);height: 500px;background: #00000000;border: 17px solid white;position: absolute;top: -335px;right: -60px;border-radius: 90px;overflow: hidden;}
+.yellow_box{width: 200px;height: 300px;background: yellow;}
+
+.box_two {
+    width: 400px;
+    height: 400px;
+    background: yellow;
+    margin-left: 970px;
+    margin-top: 143px;
+}
+
+
+
+
+
