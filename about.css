@@ -64,3 +64,46 @@ nav ul li a:hover{color: #1ecbc6 !important;text-decoration: underline !importan
 .footer_part:nth-child(5) ul {margin-left: 55px}
 .footer_contact {position: relative}
 /* footer area END here */
+
+
+/*about part responsive design start from here */
+@media all and (max-width:991px){
+
+    /* header part resposive design start from here */
+    .logo_area.col-md-3 {float: left;padding: 0;top: 40px;margin: 0;width: 34px;position: absolute;left: 6%}.first_nav {padding: 0;margin: 0;z-index: 1;position: absolute;right: 6%}
+    #navbarSupportedContent {width: 200px;background: #63707e;height: 170px;padding: 30px 12px;position: absolute;margin-top: 5px;top: 50px;right: 0;border: 1px solid #808f9f;box-shadow: 10px 12px 20px 0px #111010}
+    /* header part resposive design END here */
+}
+@media all and (max-width:260px){
+    /* header part resposive design start from here */
+    #navbarSupportedContent {width: 160px;padding: 30px 8px;}
+     /* header part resposive design END here */
+}
+
+@media all and (max-width:950px){
+    /* background part responsive design start here */
+    .middle_bg {height: 37vw}
+    /* background part responsive design END here */
+}
+@media all and (max-width:600px){
+    /* background part responsive design start here */
+    .middle_bg_title p {color: #ffffff;font-size: 14px;padding: 0px 0px;font-weight: bold}.middle_bg_title h2 {font-size: 34px}.middle_bg_title {height: 96px;margin: -50px 0 0 -300px}
+    /* background part responsive design END here */
+}
+@media all and (max-width:550px){
+    /* background part responsive design start here */
+    .middle_bg {height: 60vw}
+    .middle_bg_title {height: 134px;margin: -67px 0 0 -135px;width: 270px}
+    /* background part responsive design END here */
+}
+
+@media all and (max-width:400px){
+    /* background part responsive design start here */
+    .middle_bg {height: 350px}.middle_bg_title {margin: -67px 0 0 -40vw;width: 80vw}
+    /* background part responsive design END here */
+}
+@media all and (max-width:212px){
+    /* background part responsive design start here */
+    .middle_bg_title {margin: -100px 0 0 -40vw;width: 80vw}.middle_bg_title h2 {font-size: 30px}.middle_bg_title p {font-size: 13px}.middle_bg_title {margin: -80px 0 0 -40vw;width: 80vw}
+    /* background part responsive design END here */
+}
