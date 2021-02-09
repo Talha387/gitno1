@@ -102,8 +102,3 @@ nav ul li a:hover{color: #1ecbc6 !important;text-decoration: underline !importan
     .middle_bg {height: 350px}.middle_bg_title {margin: -67px 0 0 -40vw;width: 80vw}
     /* background part responsive design END here */
 }
-@media all and (max-width:212px){
-    /* background part responsive design start here */
-    .middle_bg_title {margin: -100px 0 0 -40vw;width: 80vw}.middle_bg_title h2 {font-size: 30px}.middle_bg_title p {font-size: 13px}.middle_bg_title {margin: -80px 0 0 -40vw;width: 80vw}
-    /* background part responsive design END here */
-}
